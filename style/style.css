@@ -1,0 +1,401 @@
+﻿body {
+ height: 100%;
+ width: 100%;
+ min-width: 1040px;
+ max-width: 1920px;
+ margin: auto;
+ font-family: "RobotoSlab-Bold", serif;
+}
+header {
+ height: 107px;
+ width: 100%;
+ background-image: url(../image/wood-1.png);
+ background-position: center;
+ background-repeat: repeat;
+ background-size: 100%;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+}
+    div.head-page{
+	margin: 0 15%;
+    width: 70%;
+	}
+		div.head-logo {
+		 width: 12%;
+		 text-align: center;
+		}
+            div.head-logo img {	
+			}
+		div.head-button {
+		 width: 57%;
+		 text-align: center;
+		}
+			div.head-button a {
+			 font-weight: bold;
+			 margin-left: 23px;
+			 font-size: 13px;
+			 color: #45280e;
+			 text-decoration: none;
+			}
+			div.head-button a:nth-of-type(2) {
+			 font-size: 13px;
+			 font-weight: bold;
+			 color: #ffddb6;
+			 text-decoration: none;
+			 background-color: #45280e;
+			 border: 7px solid #45280e;
+			 border-radius: 4px;
+			 margin-left: 16px;
+			}
+			div.head-button a:nth-of-type(3) {
+	         margin-left: 16px;
+			}
+		div.head-basket {
+		 width: 18%;
+		}
+			.head-basket img {
+			 float: left;
+			}
+			.head-basket p {
+			 font-family: "RobotoSlab-Bold", serif;
+			 font-size: 17px;
+			 float:left;
+			 padding-left: 12px;
+			 color: #45280e;
+			}
+			.head-basket p span {
+			 font-family: "RobotoSlab-Regular", serif;
+			 font-size: 12px;
+			 float: left;
+			 color: #783e0b;
+			}
+		div.head-order {
+		 width: 13%;
+		 text-align: center;
+		}
+			.head-order input {
+			 width: 125px;
+			 height: 39px;
+			 float: left;
+			 background-color: #bb1717;
+			 color: white;
+			 border: 1px solid #bb1717;
+			 border-radius: 4px;
+			 font-family: "RobotoSlab-Bold", serif;
+			}
+		
+main {
+ height: 3066px;
+ width: 100%;
+ margin: 0 0;
+}
+    div.info {
+     width: 100%;
+     height: 648px;
+     background-image: url(../image/background-image.png);
+     background-position: center;
+	 background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+    }
+        div.info h1 {
+	     color: white;
+	     padding-top: 20px;
+	     font-size: 35px;
+	    }
+	    div.info h1>span {
+	     font-size: 60px;
+     	}
+	    div.info div.info-photo {
+	     height: 250px;
+	     width: 70%;
+	     color: white;
+	     margin: 50px 15%;
+	    }
+	        div.info-photo div {
+		     width: 25%;
+		     text-align: center;
+	        }
+	    div.info-button {
+	  	 margin: 25px auto 0;
+	    }
+	        .info-button a {
+	         font-size: 19px;
+             font-weight: bold;
+             color: white;
+             text-decoration: none;
+             background-color: #bb1717;
+	         padding: 24px 42px;
+             border-radius: 4px;
+	        }
+    div.features {
+     width: 100%;
+     height: 575px;
+     background-image: url(../image/wood-2.png);
+     background-position: center;
+	 background-size: cover;
+     background-repeat: no-repeat;
+    }
+        div.features-burgers {
+         width: 42.3%;
+         height: 575px;
+		 margin-left: 15%;
+	    }
+	        div.features-burgers h1 {
+	         font-size: 41px;
+	         padding-top: 30px;
+	        }
+	        div.features-burgers p {
+	         font-size: 16px;
+	         font-family: "RobotoSlab-Regular", serif;
+	        }
+        div.features-image {
+         width: 42.7%;
+         height: 575px;
+		 background-image: url(../image/features-image.png);
+         background-position: 0 0;
+	     background-size: cover;
+         background-repeat: no-repeat;		 
+		}			
+    div.menu {
+     width: 100%;
+     height: 865px;
+     background-image: url(../image/menu-1.png);
+     background-size: 100%;
+    }
+        .menu h1 {
+         font-size: 41px;
+         margin-left: 15%;
+         padding-top: 30px;
+        }  
+        div.menu-burger-1 {
+         width: 70%;
+         height: 650px;
+         margin: 0 15%;
+        }
+            .menu-burger-1 div {
+	         width: 23%;
+	         height: 269px;
+	         background-color: white;
+	         margin-top: 2%;
+	         border-radius: 3px;
+	         box-shadow: 0 3px 5px 2px #d1d1d1;
+	        }
+			div.select-burger {
+			 height: 149px;
+			 width: 100%;
+	         background-image: url(../image/menu-burger.png);
+             background-repeat: no-repeat;
+			 background-size: cover;
+			 background-position: center;
+			 margin: 0;
+			 box-shadow: none;
+			 border-radius: 3px 3px 0 0;
+			}
+	        .menu-burger-1 div:not(:nth-of-type(4)):not(:nth-of-type(8)) {
+	         margin-right: 2%;
+	        }
+	            .menu-burger-1 div p {
+	             font-size: 15px;
+	             color: #281f17;
+	             padding-top: 150px;
+	             padding-left: 15px;
+	            }
+				.menu-burger-1 div p span {
+				 font-family: "RobotoSlab-Regular", serif;
+				}
+	            .menu-burger-1 a {
+                 font-size: 11px;
+                 font-weight: bold;
+                 color: white;
+                 text-decoration: none;
+                 background-color: #bb1717;
+	             margin-left: 15px;
+                 border-radius: 4px;
+	             padding: 8px 20px;
+	            }
+    div.delivery {
+     width: 100%;
+     height: 515px;
+     background-image: url(../image/black-wood-1.png);
+     background-position: center;
+     background-repeat: no-repeat;
+	 background-size: cover;
+    }
+        div.delivery h1 {
+	     color: #dfe3f7;
+	     font-size: 41px;
+	     margin-left: 15%;
+	     padding-top: 30px;
+	    }
+        div.delivery-photo {
+         width: 70%;
+         height: 105px;
+         margin: 0 15%;
+	    }
+	        div.delivery-photo div {
+	         width: 33%;
+	         height: 103px;
+	         margin: 0 0;
+			 display: flex;
+			 align-items: center;
+	        }
+			    div.delivery-photo div img {
+				width: 30%;
+				float: left;
+				}
+	            div.delivery-photo div p {
+				 width: 66%;
+	             font-size: 17px;
+	             color: #dfe3f7;
+	             float: right;
+				 margin-left: 4%;
+	            }
+	    div.delivery-button {
+	     margin-left: 15%;
+	     margin-top: 70px;
+	    }
+	        div.delivery-button a {
+	         font-size: 19px;
+             font-weight: bold;
+             color: white;
+             text-decoration: none;
+             background-color: #bb1717;
+	         padding: 25px 40px;
+             border-radius: 4px;	 
+	        }
+    div.map {
+     width: 100%;
+     height: 463px;
+     background-color: #dfe3f7;
+	 background-size: cover;
+    }
+        div.yandex-map {
+	     height: 461px;
+	     width: 47%;
+		 margin-left: 15%;
+	    }
+	        .yandex-map p{
+	         text-align: left;
+	         margin-top: 225px;
+	         font-size: 19px;
+	        }
+	    div.call-to-me {
+	     height: 461px;
+	     width: 23%;
+		 margin-right: 15%;
+	    }
+	        .call-to-me form {
+	         font-family: "RobotoSlab-Bold", serif;
+	         width: 300px;
+	         height: 329px;
+	         margin-top: 70px;
+	         text-align: center;
+	         border: 0.1px solid white;
+	         background-color: white;
+	         border-radius: 3px;
+	         box-shadow: 0 0 5px 3px #cdd0e3;
+	        }
+	            form h1>span {
+		         font-family: "RobotoSlab-Light", serif;
+		         font-size: 15px;
+		        }
+	            form input {
+	             font-family: "RobotoSlab-Light", serif;
+		         width: 251px;
+		         height: 52px;
+		         border-radius: 3px;
+		         margin-top: 15px;
+		        }
+		        form input:not([type="submit"]) {
+		         border: 1px solid #dadadb;
+		         border-radius: 3px;
+		         padding-left: 13px;
+		        }
+		            form input::placeholder {
+		             padding-left: 13px;
+		             font-family: "RobotoSlab-Regular", serif;
+		             color: #dadadb;
+		            }
+		        form input:last-of-type {
+	             width: 265px;
+		         background-color: #bb1717;
+		         color: white;
+		         border: 1px solid #bb1717;
+		         border-radius: 4px;
+                 font-weight: bold;
+		         font-family: "RobotoSlab-Bold", serif;
+		        }
+                    form input::value {
+		             padding-left: 16px;
+		            }
+		
+footer {
+height: 60px;
+width: 100%;
+margin: 0 0;
+background-image: url(../image/black-wood-1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+    footer div.foot {
+	 width: 70%;
+	 margin: 0 15%;
+	 height: 60px;
+     align-items: center;
+    }
+        div.foot div:first-of-type,
+        div.foot div:nth-of-type(2) {
+		 font-family: "RobotoSlab-Light", serif;
+		 font-size: 13px;
+		 width: 25%;
+		 color: #dfe3f7;
+        }
+        div.foot div:nth-of-type(3) {
+	     font-size: 14px;
+	     width: 25%;
+        }
+			.foot div a {
+			 text-decoration: none;
+			 color: #ffffff;
+			 border: 1px solid #ffffff;
+			 border-radius: 4px;
+			 padding: 10px 27px;
+			}
+		div.foot div:nth-of-type(4) {
+		 font-family: "RobotoSlab-Bold", serif;
+	     font-size: 16px;
+	     width: 25%;
+		 color: #dfe3f7;
+        }
+.flex-y {
+display: flex;
+align-items: center;
+}
+.height-all {
+height: 100%;
+}
+.flex-x {
+display: flex;
+justify-content: flex-start;
+}
+@font-face {
+font-family: "RobotoSlab-Regular";  
+src: url("../fonts/RobotoSlab-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+@font-face{
+ font-family: "RobotoSlab-Bold";
+ src: url("../fonts/RobotoSlab-Bold.ttf") format("truetype");
+ font-style: normal; 
+font-weight: normal; 
+}
+@font-face{
+ font-family: "RobotoSlab-Light";
+ src: url("../fonts/RobotoSlab-Light.ttf") format("truetype");
+ font-style: normal; 
+font-weight: normal; 
+}
