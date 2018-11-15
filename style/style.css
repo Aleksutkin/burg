@@ -1,4 +1,5 @@
-﻿body {
+﻿html { height:100%}
+body {
  height: 100%;
  width: 100%;
  min-width: 1040px;
@@ -14,10 +15,9 @@ header {
  background-repeat: repeat;
  background-size: 100%;
  text-align: center;
- display: flex;
- flex-direction: column;
 }
     div.head-page{
+		margin: 0 11%;
 	}
 		div.head-logo {
 		}
@@ -26,7 +26,6 @@ header {
 		div.head-button {
 		}
 			div.head-button a {
-			 font-weight: bold;
 			 margin-left: 20px;
 			 font-size: 13px;
 			 color: #45280e;
@@ -46,7 +45,6 @@ header {
 	         margin-left: 13px;
 			}
 		div.head-basket {
-			 margin-left: 20px;
 		}
 			.head-basket img {
 			}
@@ -64,12 +62,10 @@ header {
 			}
 		div.head-order {
 		 text-align: center;
-		 margin-left: 20px;
 		}
 			.head-order input {
 			 width: 125px;
 			 height: 39px;
-			 float: left;
 			 background-color: #bb1717;
 			 color: white;
 			 border: 1px solid #bb1717;
@@ -83,7 +79,6 @@ main {
  margin: 0 0;
 }
     div.info {
-     width: 100%;
      height: 648px;
      background-image: url(../image/background-image.png);
      background-position: center;
@@ -91,26 +86,28 @@ main {
      background-repeat: no-repeat;
      text-align: center;
     }
-        div.info h1 {
+        div.info div.title-1 {
 	     color: white;
 	     padding-top: 20px;
-	     font-size: 35px;
+	     
 	    }
-	    div.info h1>span {
+		div.info h1 {
+		 font-size: 35px;
+		}
+	    div.info h1 span {
 	     font-size: 60px;
      	}
 	    div.info div.info-photo {
+		 margin: 0 11%;
+	     padding-top: 20px;	
 	     height: 250px;
-	     width: 70%;
 	     color: white;
-	     margin: 50px 15%;
 	    }
 	        div.info-photo div {
-		     width: 25%;
 		     text-align: center;
 	        }
 	    div.info-button {
-	  	 margin: 25px auto 0;
+	     padding-top: 20px;
 	    }
 	        .info-button a {
 	         font-size: 19px;
@@ -151,30 +148,31 @@ main {
          background-repeat: no-repeat;		 
 		}			
     div.menu {
-     width: 100%;
      height: 865px;
      background-image: url(../image/menu-1.png);
      background-size: 100%;
     }
-        .menu h1 {
-         font-size: 41px;
+        .menu .title-3 {
          margin-left: 15%;
          padding-top: 30px;
         }  
+		.title-3 h1 {
+		font-size: 41px;
+		}
         div.menu-burger-1 {
-         width: 70%;
          height: 650px;
-         margin: 0 15%;
+         margin: 0 10%;
         }
             .menu-burger-1 div {
-	         width: 23%;
+	         width: 220px;
 	         height: 269px;
 	         background-color: white;
-	         margin-top: 2%;
+	         margin-top: 5px;
+			 margin-right: 20px;
 	         border-radius: 3px;
 	         box-shadow: 0 3px 5px 2px #d1d1d1;
 	        }
-			div.select-burger {
+			/*div.select-burger {
 			 height: 149px;
 			 width: 100%;
 	         background-image: url(../image/menu-burger.png);
@@ -186,12 +184,11 @@ main {
 			 border-radius: 3px 3px 0 0;
 			}
 	        .menu-burger-1 div:not(:nth-of-type(4)):not(:nth-of-type(8)) {
-	         margin-right: 2%;
+	         margin-right: 2%;*/
 	        }
 	            .menu-burger-1 div p {
 	             font-size: 15px;
 	             color: #281f17;
-	             padding-top: 150px;
 	             padding-left: 15px;
 	            }
 				.menu-burger-1 div p span {
@@ -289,7 +286,10 @@ main {
 	         border-radius: 3px;
 	         box-shadow: 0 0 5px 3px #cdd0e3;
 	        }
-	            form h1>span {
+			    form h1 {
+				 font-size: 23px;
+				}
+	            form h1 span {
 		         font-family: "RobotoSlab-Light", serif;
 		         font-size: 15px;
 		        }
@@ -362,6 +362,7 @@ background-size: cover;
 	     width: 25%;
 		 color: #dfe3f7;
         }
+
 .flex-y {
 display: flex;
 align-items: center;
@@ -372,6 +373,21 @@ height: 100%;
 .flex-x {
 display: flex;
 justify-content: center;
+}
+.flex-column {
+ display: flex;
+ flex-direction: column;
+}
+.flex-wrap {
+ display: flex;
+ flex-wrap: wrap;
+}
+.margin-right {
+margin-right: 30px;
+}
+.flex-space-around-x {
+display: flex;
+justify-content: space-around;
 }
 @font-face {
 font-family: "RobotoSlab-Regular";  
