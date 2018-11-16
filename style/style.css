@@ -8,7 +8,6 @@ body {
  font-family: "RobotoSlab-Bold", serif;
 }
 header {
- height: 107px;
  width: 100%;
  background-image: url(../image/wood-1.png);
  background-position: center;
@@ -17,7 +16,7 @@ header {
  text-align: center;
 }
     div.head-page{
-		margin: 0 11%;
+		margin: 15px 11%;
 	}
 		div.head-logo {
 		}
@@ -74,12 +73,10 @@ header {
 			}
 		
 main {
- height: 3066px;
  width: 100%;
  margin: 0 0;
 }
     div.info {
-     height: 648px;
      background-image: url(../image/background-image.png);
      background-position: center;
 	 background-size: cover;
@@ -99,15 +96,15 @@ main {
      	}
 	    div.info div.info-photo {
 		 margin: 0 11%;
-	     padding-top: 20px;	
-	     height: 250px;
+	     padding-top: 20px;
 	     color: white;
 	    }
 	        div.info-photo div {
 		     text-align: center;
 	        }
 	    div.info-button {
-	     padding-top: 20px;
+	     padding-top: 10px;
+		 padding-bottom: 60px;
 	    }
 	        .info-button a {
 	         font-size: 19px;
@@ -148,26 +145,25 @@ main {
          background-repeat: no-repeat;		 
 		}			
     div.menu {
-     height: 865px;
      background-image: url(../image/menu-1.png);
      background-size: 100%;
     }
         .menu .title-3 {
-         margin-left: 15%;
+         margin-left: 11%;
          padding-top: 30px;
         }  
 		.title-3 h1 {
 		font-size: 41px;
 		}
         div.menu-burger-1 {
-         height: 650px;
          margin: 0 11%;
+		 padding-bottom: 40px;
         }
             .menu-burger-1 div {
 	         width: 220px;
 	         height: 269px;
 	         background-color: white;
-	         margin-top: 5px;
+	         margin-top: 30px;
 			 margin-right: 30px;
 	         border-radius: 3px;
 	         box-shadow: 0 3px 5px 2px #d1d1d1;
@@ -192,7 +188,6 @@ main {
 	            }
     div.delivery {
      width: 100%;
-     height: 515px;
      background-image: url(../image/black-wood-1.png);
      background-position: center;
      background-repeat: no-repeat;
@@ -202,34 +197,28 @@ main {
 	     color: #dfe3f7;
 	     font-size: 41px;
 	     margin-left: 15%;
-	     padding-top: 30px;
+	     padding-top: 10px;
 	    }
         div.delivery-photo {
-         width: 70%;
-         height: 105px;
          margin: 0 15%;
 	    }
 	        div.delivery-photo div {
 	         width: 33%;
-	         height: 103px;
 	         margin: 0 0;
-			 display: flex;
-			 align-items: center;
 	        }
 			    div.delivery-photo div img {
 				width: 30%;
-				float: left;
 				}
 	            div.delivery-photo div p {
 				 width: 66%;
 	             font-size: 17px;
 	             color: #dfe3f7;
-	             float: right;
 				 margin-left: 4%;
 	            }
 	    div.delivery-button {
 	     margin-left: 15%;
-	     margin-top: 70px;
+		 margin-top: 20px;
+		 margin-bottom: 60px;
 	    }
 	        div.delivery-button a {
 	         font-size: 19px;
@@ -371,6 +360,10 @@ justify-content: center;
 .flex-space-around-x {
 display: flex;
 justify-content: space-around;
+}
+.flex-wrap {
+display: flex;
+flex-wrap: wrap;
 }
 @font-face {
 font-family: "RobotoSlab-Regular";  
