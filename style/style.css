@@ -8,7 +8,6 @@ body {
  font-family: "RobotoSlab-Bold", serif;
 }
 header {
- width: 100%;
  background-image: url(../image/wood-1.png);
  background-position: center;
  background-repeat: repeat;
@@ -65,6 +64,7 @@ header {
 main {
  width: 100%;
  margin: 0 0;
+ flex-grow: 1;
 }
     div.info {
      background-image: url(../image/background-image.png);
@@ -286,8 +286,6 @@ main {
 		            }
 		
 footer {
-width: 100%;
-margin: 0 0;
 background-image: url(../image/black-wood-1.png);
 background-position: center;
 background-repeat: no-repeat;
@@ -321,6 +319,7 @@ background-size: cover;
 	     width: 25%;
 		 color: #dfe3f7;
         }
+.all {padding: 0 1%;}
 a, h1 {
 text-transform: uppercase;
 }
@@ -364,7 +363,6 @@ font-weight: normal;
 height: 100%
 }
 footer {
-position: absolute;
 bottom: 0;
 width: 100%;
 }
