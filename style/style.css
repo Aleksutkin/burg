@@ -2,7 +2,7 @@
 body {
  height: 100%;
  width: 100%;
- min-width: 1040px;
+ min-width: 1023px;
  max-width: 1920px;
  margin: 0 auto;
  font-family: "RobotoSlab-Bold", serif;
@@ -12,10 +12,9 @@ header {
  background-position: center;
  background-repeat: repeat;
  background-size: 100%;
- text-align: center;
 }
     div.head-page{
-		margin: 15px 11%;
+		margin: 15px 10%;
 	}
 			div.head-button a {
 			 margin-left: 20px;
@@ -48,9 +47,6 @@ header {
 			 font-size: 12px;
 			 color: #783e0b;
 			}
-		div.head-order {
-		 text-align: center;
-		}
 			.head-order input {
 			 width: 125px;
 			 height: 39px;
@@ -117,7 +113,7 @@ main {
 		 margin-left: 11%;
 		 margin-right: 4%
 	    }
-	        div.features-burgers h1 {
+	        div.features-burgers h2 {
 	         font-size: 41px;
 	        }
 	        div.features-burgers p {
@@ -140,7 +136,7 @@ main {
          margin-left: 11%;
          padding-top: 30px;
         }  
-		.title-3 h1 {
+		.title-3 h2 {
 		font-size: 41px;
 		}
         div.menu-burger-1 {
@@ -181,7 +177,7 @@ main {
      background-repeat: no-repeat;
 	 background-size: cover;
     }
-        div.delivery h1 {
+        div.delivery h2 {
 	     color: #dfe3f7;
 	     font-size: 41px;
 	     margin-left: 11%;
@@ -248,10 +244,10 @@ main {
 	         border-radius: 3px;
 	         box-shadow: 0 0 5px 3px #cdd0e3;
 	        }
-			    form h1 {
+			    form h3 {
 				 font-size: 23px;
 				}
-	            form h1 span {
+	            form h3 span {
 		         font-family: "RobotoSlab-Light", serif;
 		         font-size: 15px;
 		        }
@@ -299,12 +295,10 @@ background-size: cover;
         div.foot div:nth-of-type(2) {
 		 font-family: "RobotoSlab-Light", serif;
 		 font-size: 13px;
-		 width: 25%;
 		 color: #dfe3f7;
         }
         div.foot div:nth-of-type(3) {
 	     font-size: 14px;
-	     width: 25%;
         }
 			.foot div a {
 			 text-decoration: none;
@@ -312,15 +306,15 @@ background-size: cover;
 			 border: 1px solid #ffffff;
 			 border-radius: 4px;
 			 padding: 10px 27px;
+		     text-transform: capitalize;
 			}
 		div.foot div:nth-of-type(4) {
 		 font-family: "RobotoSlab-Bold", serif;
 	     font-size: 16px;
-	     width: 25%;
 		 color: #dfe3f7;
         }
-.all {padding: 0 1%;}
-a, h1 {
+
+a, h1, h2, h3, .yandex-map p, input[type=submit] {
 text-transform: uppercase;
 }
 .flex-y {
