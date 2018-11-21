@@ -2,7 +2,6 @@
 body {
  height: 100%;
  width: 100%;
- min-width: 1023px;
  max-width: 1920px;
  margin: 0 auto;
  font-family: "RobotoSlab-Bold", serif;
@@ -16,13 +15,13 @@ header {
     div.head-page{
 		margin: 15px 10%;
 	}
-			div.head-button a {
+			nav.head-button a {
 			 margin-left: 20px;
 			 font-size: 13px;
 			 color: #45280e;
 			 text-decoration: none;
 			}
-			div.head-button a:nth-of-type(2) {
+			nav.head-button a:nth-of-type(2) {
 			 font-size: 13px;
 			 font-weight: bold;
 			 color: #ffddb6;
@@ -31,8 +30,9 @@ header {
 			 border: 7px solid #45280e;
 			 border-radius: 4px;
 			 margin-left: 16px;
+			 text-align: center;
 			}
-			div.head-button a:nth-of-type(3) {
+			nav.head-button a:nth-of-type(3) {
 	         margin-left: 13px;
 			}
 			.head-basket p {
@@ -58,7 +58,6 @@ header {
 			}
 		
 main {
- width: 100%;
  margin: 0 0;
  flex-grow: 1;
 }
@@ -122,7 +121,7 @@ main {
 	        }
         div.features-image {
          width: 42.7%;
-         height: 575px;
+         height: 630px;
 		 background-image: url(../image/features-image.png);
          background-position: 0 0;
 	     background-size: cover;
@@ -130,7 +129,6 @@ main {
 		}			
     div.menu {
      background-image: url(../image/menu-1.png);
-     background-size: 100%;
     }
         .menu .title-3 {
          margin-left: 11%;
@@ -172,7 +170,6 @@ main {
 		 margin-bottom: 10px;
 	            }
     div.delivery {
-     width: 100%;
      background-image: url(../image/black-wood-1.png);
      background-position: center;
      background-repeat: no-repeat;
@@ -188,8 +185,8 @@ main {
          margin: 0 11%;
 	    }
 	        div.delivery-photo div {
-	         width: 33%;
 	         margin: 0 0;
+			 min-width: 250px;
 	        }
 			    div.delivery-photo div img {
 				width: 30%;
@@ -215,35 +212,30 @@ main {
              border-radius: 4px;	 
 	        }
     div.map {
-     width: 100%;
      background-color: #dfe3f7;
 	 background-size: cover;
     }
         div.yandex-map {
-	     height: 461px;
-	     width: 47%;
-		 margin-left: 15%;
+		 margin-left: 11%;
+	     min-width: 300px;
 	    }
 	        .yandex-map p{
 	         text-align: left;
-	         margin-top: 225px;
 	         font-size: 19px;
 	        }
 	    div.call-to-me {
-	     height: 461px;
-	     width: 23%;
-		 margin-right: 15%;
+		 margin-right: 11%;
+	     min-width: 300px;
 	    }
 	        .call-to-me form {
 	         font-family: "RobotoSlab-Bold", serif;
-	         width: 300px;
-	         height: 329px;
-	         margin-top: 70px;
 	         text-align: center;
 	         border: 0.1px solid white;
 	         background-color: white;
 	         border-radius: 3px;
+			 width: 300px;
 	         box-shadow: 0 0 5px 3px #cdd0e3;
+			 margin: 40px 0;
 	        }
 			    form h3 {
 				 font-size: 23px;
@@ -277,6 +269,7 @@ main {
 		         border-radius: 4px;
                  font-weight: bold;
 		         font-family: "RobotoSlab-Bold", serif;
+				 margin-bottom: 20px;
 		        }
                     form input::value {
 		             padding-left: 16px;
